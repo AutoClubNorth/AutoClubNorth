@@ -52,3 +52,8 @@ A cloud-based application for managing car club members. The app includes a Reac
 ## Monitoring
 - **Sentry**: Tracks application errors and exceptions.
 - **Grafana Cloud**: Logs and performance metrics.
+
+## API Documentation
+You can view the API documentation at the following URL:
+[SwaggerUI API Docs](http://localhost/swagger-ui.html)
+

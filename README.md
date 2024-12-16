@@ -7,7 +7,9 @@ A cloud-based application for managing car club members. The app includes a Reac
 - **Frontend**: React, TailwindCSS
 - **Backend**: Spring Boot, Spring Security, JWT
 - **Build Tool**: Gradle
-- **Database**: PostgreSQL (hosted on Render)
+- **Database**:
+  - PostgreSQL (hosted on Render)
+  - Flyway (Database migrations)
 - **Cloud Hosting**: Render (combined backend/frontend hosting)
 - **Logs & Monitoring**: 
   - Sentry (error tracking)

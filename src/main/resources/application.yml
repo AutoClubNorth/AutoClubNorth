@@ -12,7 +12,7 @@ spring:
 #    user: ${db.username}
 #    password: ${db.password}
 #    schemas: ${db.schema}
-    locations: filesystem:db/migration
+    locations: classpath:db/migration
   jpa:
     properties:
       hibernate:

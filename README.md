@@ -5,17 +5,21 @@ A cloud-based application for managing car club members. The app includes a Reac
 
 ### Technologies Used
 - **Frontend**: React, TailwindCSS
-- **Backend**: Spring Boot, Spring Security, JWT
+- **Backend**: Java17, Spring Boot v3.4.0, Spring Security, JWT, Lombok
 - **Build Tool**: Gradle
 - **Database**:
   - PostgreSQL (hosted on Render)
   - Flyway (Database migrations)
+  - JPA (Database interaction and ORM)
 - **Cloud Hosting**: Render (combined backend/frontend hosting)
 - **Logs & Monitoring**: 
   - Sentry (error tracking)
   - Grafana Cloud (log monitoring)
+  - Actuator (application metrics and monitoring)
 - **CI/CD**: GitHub Actions
 - **Containerization**: Docker
+- **Testing**: JUnit
+- **API Documentation**: Swagger
 
 ### Features
 - Manage members (add, update, delete)
@@ -27,7 +31,7 @@ A cloud-based application for managing car club members. The app includes a Reac
 ### Prerequisites
 - Java 17
 - Node.js & npm
-- Docker (optional)
+- Docker
 
 ### Installation
 1. Clone the repository:
@@ -57,5 +61,5 @@ A cloud-based application for managing car club members. The app includes a Reac
 
 ## API Documentation
 You can view the API documentation at the following URL:
-[SwaggerUI API Docs](http://localhost/swagger-ui.html)
+[SwaggerUI API Docs](http://localhost:8080/swagger-ui.html)
 
